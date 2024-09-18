@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <input name="viewpoint"content='device-width, initial-scale=1.0'>
+        <title>My Hobbies</title>
+        <style>
+            body{
+            font-family: 'Courier New';
+            border: 0cap;
+            padding: 0%;
+            background-color:white;}
+            
+            nav{
+            margin: auto;
+            text-align: center;}
+
+            header{
+                background-color: aquamarine;
+                padding: 0%;
+                text-align: center;
+                color:black;}
+
+            section{
+                background-color: white;
+                padding: 0%;
+                text-align: left;
+                color: black;}
+
+            footer{
+                background-color:aquamarine;
+                padding: 0%;
+                text-align: center;
+                color: black;
+            }
+            
+        </style>
+    </head>
+        <body>
+            <header>
+                <h1>I Present My Hobby</h1>
+                <p>Learn My Interest In Movies And Gaming</p>
+                <img src="slide_1.jpg" alt="Hobby image1" length="400" width="400">
+                <nav>
+                    <a href="slide_1.jpg"">image link</a>
+
+                </nav>
+
+                <section id="about hobby">
+                <div>
+                <h2>About My Hobby</h2>
+                <p>My major hobbies are:<b>Watching movies</b> and <b>Playing video games</b></p>
+                <h3>Watching Movies:</h3>
+                <p>Ever since I can remember, I’ve loved immersing myself in cinema. Whether it’s an action-</p>
+                
+            
+            </header>
+        </body>
+    <footer>
+        
+    </footer>

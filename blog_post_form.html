@@ -1,0 +1,92 @@
+<html>
+    <title>blog form</title>
+        <div class="sidebar">
+            <ul>
+               <li><a href="blog_layout.html">Blog</a></li>
+               <li><a href="table_of_contents.html">TABLE OF CONTENT</a></li>
+               <li><a href="multimedia_blog_post.html">MEDIA</a></li>
+               <li><a href="blog_post_form.html">POST BLOG</a></li>
+           </ul>
+        </div>
+        <header>
+            <h1>Create Your Blog</h1>
+        </header>
+        <style>
+
+            body{
+            margin: 50px;
+            border: 5px;
+            padding: 0%;
+            text-align: center;
+            background-color:rgb(196, 191, 191);}
+                 
+            ul{
+                list-style-type: none;
+                margin: 0%;
+                padding: 1%;
+                display: block;
+                text-align: left;
+                background-color: black;
+            list-style-type: none;} 
+                
+            li,a{
+                 display:inline-block;
+                 padding: 0px,0;
+                 text-decoration: none;
+                 align-items: center;
+                color: white;}
+            
+            a:hover {
+                  background-color: plum;
+                  color: white;}
+
+
+            input[type=text]{
+                border: 2px solid;
+                box-sizing:border-box;
+                margin: 5px,0;
+                padding:10px,15px;
+                width: 100%;
+                display:inline-block;}
+                
+            
+            input[type=submit]{
+                width: 100%;
+                margin: 10px,20px;
+                border: 5px;
+                border-radius: 5px;}
+
+            textarea{
+                width:100%;
+                height: 200px;
+                padding:10px 15px;
+                box-sizing: border-box;
+                border: 5px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;}
+            
+        </style>
+        
+        <body>
+            <form>
+            <div>
+            <label for="blog post">blog post title</label>
+            <input type="text" id="blog post title" name="blog post title" placeholder="enter blog title"><br>
+            <label for="author's name">authors name</label>
+            <input type="text" id="authors name" name="author's name" placeholder="enter your name">
+            </div>
+            </form>
+            <p><label for=" show content">content</label></p>
+            <textarea name="show content" id="show content"></textarea>
+            <label for="flowers">choose flower types:</label>
+            <select name="flowers" id="flowers-select">
+                <option value="sunflower">sunflower</option>
+                <option value="lotus">lotus</option>
+                <option value="lilies">lilies</option>
+                <option value="roses">rose</option>
+                <option value="tulips">tulip</option>
+            </select>
+            <!--clickable button-->
+            <button type="button" onclick="alert('button clicked!')">submit</button>
+        </body>
+</html>
